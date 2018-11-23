@@ -35,4 +35,9 @@ Idea is if you look up a person, you get to see, who s/he is, an insight and wha
   - personalLife_legacy
   - netWorth
   - top10Facts
+- facebookLink
+- twitterLink
+- instagramLink
+- linkedInLink
+- inTheNews
 - pRate
