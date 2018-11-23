@@ -11,6 +11,10 @@ Idea is if you look up a person, you get to see, who s/he is, an insight and wha
 # peopleData
 
 - commonName
+- firstName
+- middleName
+- lastName
+- gender
 - photo
 - birthDate
 - age
