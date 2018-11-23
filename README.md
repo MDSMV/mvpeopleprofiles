@@ -28,10 +28,11 @@ Idea is if you look up a person, you get to see, who s/he is, an insight and wha
 - founder_co-founder
 - netWorth
 - bio
--- childhood_earlyLife
--- career
--- majorWorks
--- awards_achievements
--- personalLife_legacy
--- netWorth
--- top10Facts
+  - childhood_earlyLife
+  - career
+  - majorWorks
+  - awards_achievements
+  - personalLife_legacy
+  - netWorth
+  - top10Facts
+- pRate
