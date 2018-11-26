@@ -1,0 +1,123 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "person",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "commonName": {
+      "default": "",
+      "type": "string"
+    },
+    "firstName": {
+      "default": "",
+      "type": "string"
+    },
+    "middleName": {
+      "default": "",
+      "type": "string"
+    },
+    "lastName": {
+      "default": "",
+      "type": "string"
+    },
+    "gender": {
+      "default": "",
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "birthDate": {
+      "default": "",
+      "type": "date"
+    },
+    "alsoKnownAs": {
+      "default": "",
+      "type": "string"
+    },
+    "bornIn": {
+      "default": "",
+      "type": "string"
+    },
+    "famousAs": {
+      "default": "",
+      "type": "string"
+    },
+    "height": {
+      "default": "",
+      "type": "string"
+    },
+    "politicalParty": {
+      "default": "",
+      "type": "string"
+    },
+    "spouse_ex": {
+      "default": "",
+      "type": "string"
+    },
+    "father": {
+      "default": "",
+      "type": "string"
+    },
+    "mother": {
+      "default": "",
+      "type": "string"
+    },
+    "siblings": {
+      "default": "",
+      "type": "string"
+    },
+    "children": {
+      "default": "",
+      "type": "string"
+    },
+    "island": {
+      "default": "",
+      "type": "string"
+    },
+    "founder_co": {
+      "default": "",
+      "type": "string"
+    },
+    "netWorth": {
+      "default": "",
+      "type": "string"
+    },
+    "facebookLink": {
+      "default": "",
+      "type": "string"
+    },
+    "twitterLink": {
+      "default": "",
+      "type": "string"
+    },
+    "instagramLink": {
+      "default": "",
+      "type": "string"
+    },
+    "linkedInLink": {
+      "default": "",
+      "type": "string"
+    },
+    "bio": {
+      "model": "bio",
+      "via": "person"
+    },
+    "news": {
+      "collection": "news",
+      "via": "person"
+    },
+    "pRatings": {
+      "collection": "prating",
+      "via": "person"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pratings",
+      "handler": "Prating.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pratings/count",
+      "handler": "Prating.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pratings/:_id",
+      "handler": "Prating.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pratings",
+      "handler": "Prating.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pratings/:_id",
+      "handler": "Prating.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pratings/:_id",
+      "handler": "Prating.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

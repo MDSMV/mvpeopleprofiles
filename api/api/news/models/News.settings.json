@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "news",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "newsTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "newsURL": {
+      "default": "",
+      "type": "string"
+    },
+    "newsSummary": {
+      "default": "",
+      "type": "text"
+    },
+    "Attribute": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "positive",
+        "negative",
+        "neutral"
+      ]
+    },
+    "person": {
+      "model": "person",
+      "via": "news"
+    }
+  }
+}

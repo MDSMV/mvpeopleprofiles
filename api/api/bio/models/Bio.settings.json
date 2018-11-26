@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "bio",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "childhood_earlyLife": {
+      "default": "",
+      "type": "text"
+    },
+    "career": {
+      "default": "",
+      "type": "text"
+    },
+    "majorWorks": {
+      "default": "",
+      "type": "text"
+    },
+    "awards_achievements": {
+      "default": "",
+      "type": "text"
+    },
+    "personalLife_legacy": {
+      "default": "",
+      "type": "text"
+    },
+    "top10Facts": {
+      "default": "",
+      "type": "text"
+    },
+    "education": {
+      "default": "",
+      "type": "text"
+    },
+    "person": {
+      "model": "person",
+      "via": "bio"
+    }
+  }
+}

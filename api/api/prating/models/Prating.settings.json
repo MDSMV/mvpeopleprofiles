@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "prating",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "rate": {
+      "default": "",
+      "max": 10,
+      "type": "integer",
+      "required": true
+    },
+    "person": {
+      "model": "person",
+      "via": "pRatings"
+    }
+  }
+}
