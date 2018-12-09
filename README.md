@@ -45,3 +45,8 @@ Idea is if you look up a person, you get to see, who s/he is, an insight and wha
 - linkedInLink
 - inTheNews
 - pRate
+
+-- API
+
+cd api
+strapi start
