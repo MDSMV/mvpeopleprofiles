@@ -2,6 +2,9 @@
 # mvPeopleProfiles
 Profile of Public Figures in Maldives
 
+# development server
+[http://68.183.178.1:1337/]
+
 # idea
 
 To provide public / concise and proper profiles, a journal / catalog of people in government, in power positions, cabinet / majlis and all. Listing their qualifications, work attributes, responsibilities, curated list of news against / attributed to them and possibly a moderated yelp kind of review mechanices.
