@@ -2,19 +2,19 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "DOCUMENTATION",
+    "title": "MV PEOPLE PROFILE API DOCUMENTATION",
     "description": "",
-    "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
+    "termsOfService": "Github Repo",
     "contact": {
       "name": "TEAM",
-      "email": "contact-email@something.io",
-      "url": "mywebsite.io"
+      "email": "shunan@gmail.com",
+      "url": "https://github.com/MDSMV/mvpeopleprofiles"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "12/25/2018 12:51:01 AM"
+    "x-generation-date": "12/25/2018 3:28:10 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -22,21 +22,21 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337",
+      "url": "http://68.183.178.1:1337",
       "description": "Development server"
     },
     {
-      "url": "YOUR_STAGING_SERVER",
+      "url": "http://68.183.178.1:1337",
       "description": "Staging server server"
     },
     {
-      "url": "YOUR_PRODUCTION_SERVER",
+      "url": "http://68.183.178.1:1337",
       "description": "Production server"
     }
   ],
   "externalDocs": {
-    "description": "Find out more",
-    "url": "https://strapi.io/documentation/3.x.x/"
+    "description": "Find About MDS",
+    "url": "https://github.com/MDSMV/mvpeopleprofiles"
   },
   "security": [
     {
