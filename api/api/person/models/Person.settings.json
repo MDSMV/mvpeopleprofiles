@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "person",
   "info": {
     "name": "person",
     "description": ""
@@ -108,8 +108,7 @@
       "type": "string"
     },
     "bio": {
-      "model": "bio",
-      "via": "person"
+      "model": "bio"
     },
     "news": {
       "collection": "news",

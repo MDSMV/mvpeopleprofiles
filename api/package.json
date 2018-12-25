@@ -20,28 +20,28 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-alpha.14.5",
-    "strapi-hook-mongoose": "3.0.0-alpha.14.5"
+    "strapi": "3.0.0-alpha.17",
+    "strapi-hook-mongoose": "3.0.0-alpha.17"
   },
   "author": {
-    "name": "yusuf",
+    "name": "root",
     "email": "",
     "url": ""
   },
   "maintainers": [
     {
-      "name": "yusuf",
+      "name": "root",
       "email": "",
       "url": ""
     }
   ],
   "strapi": {
     "packageManager": "npm",
-    "uuid": "91a18c74-1f0c-4f41-9e4a-a2cc11df871f"
+    "uuid": "4392f051-f77d-4015-9b2a-f9b1b04e8a70"
   },
   "engines": {
-    "node": ">= 9.0.0",
-    "npm": ">= 5.0.0"
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
   },
   "license": "MIT"
 }

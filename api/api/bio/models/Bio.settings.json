@@ -36,10 +36,6 @@
     "education": {
       "default": "",
       "type": "text"
-    },
-    "person": {
-      "model": "person",
-      "via": "bio"
     }
   }
 }
